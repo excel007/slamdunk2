@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Akira Sendoh poster art">
+  <rect width="400" height="500" fill="#000000"/>
+  <polygon points="280,0 400,0 400,220 230,500 120,500" fill="#1EAEDB" opacity="0.8"/>
+  <circle cx="120" cy="145" r="74" fill="none" stroke="#E87121" stroke-width="5" opacity="0.45"/>
+  <path d="M88 329 C104 276 139 225 191 208 C237 193 269 230 289 289 L262 295 C246 252 222 230 191 237 C156 245 129 276 112 332 Z" fill="#1A1A1A"/>
+  <rect x="0" y="360" width="400" height="140" fill="#121212"/>
+  <text x="28" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#E87121" letter-spacing="2">THE FIRST SLAM DUNK STYLE</text>
+  <text x="28" y="430" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">AKIRA</text>
+  <text x="28" y="462" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">SENDOH</text>
+  <text x="330" y="466" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#1EAEDB">7</text>
+</svg>

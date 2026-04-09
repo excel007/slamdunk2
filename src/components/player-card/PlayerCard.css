@@ -1,0 +1,80 @@
+.player-card {
+  background: var(--f-color-ui-0);
+  border: none;
+  overflow: hidden;
+  transition: transform 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+.player-card:hover {
+  transform: translateY(-3px);
+}
+
+.player-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--color-near-black);
+}
+
+.player-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player-card__number {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  background: var(--color-basketball);
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 700;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+}
+
+.player-card__body {
+  padding: var(--spacing-md);
+}
+
+.player-card__name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-near-black);
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.2;
+}
+
+.player-card__meta {
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-basketball);
+  margin-bottom: var(--spacing-xs);
+}
+
+.player-card__stats {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+}
+
+.player-card__stat {
+  font-size: 12px;
+  color: var(--color-mid-gray);
+}
+
+.player-card__stat strong {
+  color: var(--color-near-black);
+  font-weight: 600;
+}

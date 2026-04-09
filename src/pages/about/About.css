@@ -1,0 +1,106 @@
+.about {
+  min-height: calc(100vh - 64px);
+}
+
+.about__hero {
+  background-color: var(--color-black);
+  padding: var(--spacing-2xl) var(--spacing-md);
+  text-align: center;
+}
+
+.about__tag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-basketball);
+  margin-bottom: var(--spacing-sm);
+}
+
+.about__title {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--f-color-ui-0);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-sm);
+}
+
+.about__subtitle {
+  font-size: 14px;
+  color: var(--color-mid-gray);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.about__content {
+  background-color: var(--f-color-ui-0);
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md) var(--spacing-2xl);
+}
+
+.about__section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.about__section:last-child {
+  margin-bottom: 0;
+}
+
+.about__section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-near-black);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.2;
+}
+
+.about__text {
+  font-size: 14px;
+  color: var(--color-dark-gray);
+  line-height: 1.7;
+}
+
+.about__text + .about__text {
+  margin-top: var(--spacing-md);
+}
+
+.about__character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.about__character {
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.about__character-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-near-black);
+  margin-bottom: var(--spacing-xs);
+}
+
+.about__character-role {
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-basketball);
+}
+
+@media (max-width: 768px) {
+  .about__character-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__character-grid {
+    grid-template-columns: 1fr;
+  }
+}

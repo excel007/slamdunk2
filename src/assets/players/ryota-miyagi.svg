@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Ryota Miyagi poster art">
+  <rect width="400" height="500" fill="#000000"/>
+  <polygon points="300,0 400,0 400,200 250,500 140,500" fill="#B01E0A" opacity="0.9"/>
+  <circle cx="115" cy="148" r="72" fill="none" stroke="#E87121" stroke-width="5" opacity="0.5"/>
+  <path d="M92 334 C110 285 146 235 190 223 C236 210 266 236 283 282 L258 290 C243 254 219 239 190 245 C159 252 132 282 116 336 Z" fill="#191919"/>
+  <rect x="0" y="360" width="400" height="140" fill="#121212"/>
+  <text x="28" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#E87121" letter-spacing="2">THE FIRST SLAM DUNK STYLE</text>
+  <text x="28" y="430" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">RYOTA</text>
+  <text x="28" y="462" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">MIYAGI</text>
+  <text x="330" y="466" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#E87121">7</text>
+</svg>

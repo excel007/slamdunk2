@@ -1,0 +1,44 @@
+.card {
+  background: var(--f-color-ui-0);
+  border: none;
+  padding: var(--spacing-lg);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card__character-tag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-basketball);
+  margin-bottom: var(--spacing-sm);
+  display: inline-block;
+}
+
+.card__name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-near-black);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.2;
+}
+
+.card__text {
+  font-size: 14px;
+  color: var(--color-dark-gray);
+  line-height: 1.6;
+}
+
+.card__date {
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-mid-gray);
+  margin-top: var(--spacing-md);
+}

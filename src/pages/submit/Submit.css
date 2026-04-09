@@ -1,0 +1,129 @@
+.submit {
+  background-color: var(--f-color-ui-0);
+  min-height: calc(100vh - 64px);
+}
+
+.submit__header {
+  background-color: var(--color-black);
+  padding: var(--spacing-2xl) var(--spacing-md) var(--spacing-xl);
+  text-align: center;
+}
+
+.submit__tag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-basketball);
+  margin-bottom: var(--spacing-sm);
+}
+
+.submit__title {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--f-color-ui-0);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-sm);
+}
+
+.submit__subtitle {
+  font-size: 14px;
+  color: var(--color-mid-gray);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.submit__form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md) var(--spacing-2xl);
+}
+
+.submit__form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.submit__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.submit__label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-dark-gray);
+}
+
+.submit__input,
+.submit__textarea,
+.submit__select {
+  padding: 12px 10px;
+  font-size: 14px;
+  color: var(--color-near-black);
+  background: var(--f-color-ui-0);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.2s;
+  min-height: 44px;
+}
+
+.submit__input:focus,
+.submit__textarea:focus,
+.submit__select:focus {
+  outline: none;
+  border-color: var(--color-basketball);
+}
+
+.submit__textarea {
+  min-height: 160px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.submit__error {
+  font-size: 12px;
+  color: var(--color-warning);
+  min-height: 16px;
+}
+
+.submit__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit__success {
+  text-align: center;
+  padding: var(--spacing-2xl) 0;
+}
+
+.submit__success-icon {
+  font-size: 48px;
+  margin-bottom: var(--spacing-md);
+}
+
+.submit__success-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-near-black);
+  margin-bottom: var(--spacing-sm);
+}
+
+.submit__success-text {
+  font-size: 14px;
+  color: var(--color-dark-gray);
+  margin-bottom: var(--spacing-lg);
+}
+
+.submit__char-count {
+  font-size: 11px;
+  color: var(--color-mid-gray);
+  text-align: right;
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

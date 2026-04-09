@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Takenori Akagi poster art">
+  <rect width="400" height="500" fill="#000000"/>
+  <polygon points="250,0 400,0 400,260 210,500 60,500" fill="#9D2211" opacity="0.9"/>
+  <circle cx="120" cy="145" r="76" fill="none" stroke="#E87121" stroke-width="6" opacity="0.45"/>
+  <path d="M70 334 C84 248 133 199 203 193 C257 188 294 238 314 320 L286 324 C270 266 245 229 206 229 C159 229 124 263 103 336 Z" fill="#191919"/>
+  <rect x="0" y="360" width="400" height="140" fill="#121212"/>
+  <text x="28" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#E87121" letter-spacing="2">THE FIRST SLAM DUNK STYLE</text>
+  <text x="28" y="430" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">TAKENORI</text>
+  <text x="28" y="462" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">AKAGI</text>
+  <text x="330" y="466" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#E87121">4</text>
+</svg>

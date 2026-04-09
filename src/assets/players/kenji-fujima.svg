@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Kenji Fujima poster art">
+  <rect width="400" height="500" fill="#000000"/>
+  <polygon points="285,0 400,0 400,230 225,500 130,500" fill="#03904A" opacity="0.82"/>
+  <circle cx="120" cy="148" r="72" fill="none" stroke="#E87121" stroke-width="5" opacity="0.5"/>
+  <path d="M92 332 C108 278 144 227 197 209 C241 194 271 232 288 287 L262 294 C246 251 223 232 193 239 C159 247 130 280 114 334 Z" fill="#191919"/>
+  <rect x="0" y="360" width="400" height="140" fill="#121212"/>
+  <text x="28" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#03904A" letter-spacing="2">THE FIRST SLAM DUNK STYLE</text>
+  <text x="28" y="430" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">KENJI</text>
+  <text x="28" y="462" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">FUJIMA</text>
+  <text x="330" y="466" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#03904A">4</text>
+</svg>

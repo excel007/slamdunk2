@@ -1,0 +1,103 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--color-black);
+  border-bottom: 1px solid var(--f-color-ui-90);
+  transition: background-color 0.3s;
+}
+
+.nav__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.nav__logo {
+  width: 36px;
+  height: 36px;
+  background: var(--color-basketball);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-black);
+}
+
+.nav__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--f-color-ui-0);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.nav__links {
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+.nav__link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--f-color-ui-0);
+  letter-spacing: 0.13px;
+  padding: var(--spacing-xs) 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.nav__link:hover {
+  color: var(--color-basketball-light);
+  border-bottom-color: var(--color-basketball);
+}
+
+.nav__link--active {
+  border-bottom-color: var(--color-basketball);
+  color: var(--color-basketball-light);
+}
+
+.nav__hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--f-color-ui-0);
+  font-size: 24px;
+  padding: var(--spacing-xs);
+}
+
+.nav__mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: var(--color-black);
+  padding: var(--spacing-md);
+  gap: var(--spacing-md);
+}
+
+.nav__mobile-menu--open {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .nav__links {
+    display: none;
+  }
+
+  .nav__hamburger {
+    display: block;
+  }
+}

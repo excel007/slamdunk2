@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Kaede Rukawa poster art">
+  <rect width="400" height="500" fill="#000000"/>
+  <polygon points="300,0 400,0 400,220 230,500 120,500" fill="#B01E0A" opacity="0.95"/>
+  <circle cx="110" cy="140" r="70" fill="none" stroke="#E87121" stroke-width="5" opacity="0.45"/>
+  <path d="M83 325 C100 275 142 220 197 206 C242 194 270 230 286 280 L260 285 C245 245 222 228 194 234 C156 242 124 279 108 330 Z" fill="#181818"/>
+  <rect x="0" y="360" width="400" height="140" fill="#121212"/>
+  <text x="28" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#E87121" letter-spacing="2">THE FIRST SLAM DUNK STYLE</text>
+  <text x="28" y="430" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">KAEDE</text>
+  <text x="28" y="462" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">RUKAWA</text>
+  <text x="330" y="466" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#E87121">11</text>
+</svg>

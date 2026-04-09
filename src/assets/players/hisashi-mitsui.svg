@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Hisashi Mitsui poster art">
+  <rect width="400" height="500" fill="#000000"/>
+  <polygon points="278,0 400,0 400,230 220,500 100,500" fill="#DA291C" opacity="0.88"/>
+  <circle cx="120" cy="145" r="74" fill="none" stroke="#E87121" stroke-width="5" opacity="0.45"/>
+  <path d="M82 330 C101 270 143 216 198 204 C245 194 278 230 296 289 L270 296 C252 250 225 228 194 236 C158 244 126 279 110 333 Z" fill="#1A1A1A"/>
+  <rect x="0" y="360" width="400" height="140" fill="#121212"/>
+  <text x="28" y="390" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#E87121" letter-spacing="2">THE FIRST SLAM DUNK STYLE</text>
+  <text x="28" y="430" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">HISASHI</text>
+  <text x="28" y="462" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">MITSUI</text>
+  <text x="330" y="466" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#E87121">14</text>
+</svg>
