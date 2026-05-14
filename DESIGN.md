@@ -19,7 +19,7 @@ Typography relies on FerrariSans — a proprietary sans-serif family with medium
 - Dual-framework architecture (PrimeReact + Element Plus) powering 32+ interactive components
 - Carousel-driven hero with editorial slides and arrow/dot navigation
 
-## 2. Color Palette & Roles ...
+## 2. Color Palette & Roles and screen si
 
 ### Primary
 - **Ferrari Red** (`#DA291C`): The iconic Rosso Corsa — primary accent and CTA color. Used for the Subscribe button, key action triggers, and brand moments where maximum visual authority is needed. The single most important color in the system (--f-color-accent-100)
